@@ -21,7 +21,7 @@ if(!isset($_SESSION['username'])){
     <div class="main-container">
         <div class="content-box">
             
-            <h1 class="page-title">Welcome, <?php echo $_SESSION['username']; ?>!</h1>
+            <h1 class="page-title">Welcome<?php echo $_SESSION['username']; ?>!</h1>
             <p>This is your teacher dashboard. Please choose an action:</p>
             <hr>
             
